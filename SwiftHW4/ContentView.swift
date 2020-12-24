@@ -12,12 +12,12 @@ struct ContentView: View {
         TabView{
             ContactList()
                 .tabItem{
-                    Image(systemName: "person.icloud")
+                    Image(systemName: SystemImages.avatar.rawValue)
                     Text("Contacts")
                 }
             ContactListSections()
                 .tabItem{
-                    Image(systemName: "person.icloud")
+                    Image(systemName: SystemImages.avatar.rawValue)
                     Text("Contacts")
                 }
         }
