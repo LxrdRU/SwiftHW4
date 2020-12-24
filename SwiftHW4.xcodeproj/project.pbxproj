@@ -13,6 +13,13 @@
 		75781939259205050092309B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75781938259205050092309B /* Preview Assets.xcassets */; };
 		75781944259205060092309B /* SwiftHW4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75781943259205060092309B /* SwiftHW4Tests.swift */; };
 		7578194F259205060092309B /* SwiftHW4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7578194E259205060092309B /* SwiftHW4UITests.swift */; };
+		75781961259217C00092309B /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75781960259217C00092309B /* ContactList.swift */; };
+		75781966259217D20092309B /* ContactListSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75781965259217D20092309B /* ContactListSections.swift */; };
+		7578196B259218410092309B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7578196A259218410092309B /* Person.swift */; };
+		757819702592218E0092309B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7578196F2592218E0092309B /* DataManager.swift */; };
+		75781977259227D40092309B /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75781976259227D40092309B /* PersonRow.swift */; };
+		7578197C25927C8A0092309B /* ContactInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7578197B25927C8A0092309B /* ContactInformation.swift */; };
+		757819872594C56E0092309B /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757819862594C56E0092309B /* RowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		7578194A259205060092309B /* SwiftHW4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHW4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7578194E259205060092309B /* SwiftHW4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHW4UITests.swift; sourceTree = "<group>"; };
 		75781950259205060092309B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75781960259217C00092309B /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		75781965259217D20092309B /* ContactListSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListSections.swift; sourceTree = "<group>"; };
+		7578196A259218410092309B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		7578196F2592218E0092309B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		75781976259227D40092309B /* PersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
+		7578197B25927C8A0092309B /* ContactInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInformation.swift; sourceTree = "<group>"; };
+		757819862594C56E0092309B /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,13 @@
 			children = (
 				75781931259205020092309B /* SwiftHW4App.swift */,
 				75781933259205020092309B /* ContentView.swift */,
+				7578196A259218410092309B /* Person.swift */,
+				7578196F2592218E0092309B /* DataManager.swift */,
+				75781976259227D40092309B /* PersonRow.swift */,
+				7578197B25927C8A0092309B /* ContactInformation.swift */,
+				757819862594C56E0092309B /* RowView.swift */,
+				75781960259217C00092309B /* ContactList.swift */,
+				75781965259217D20092309B /* ContactListSections.swift */,
 				75781935259205050092309B /* Assets.xcassets */,
 				7578193A259205050092309B /* Info.plist */,
 				75781937259205050092309B /* Preview Content */,
@@ -259,6 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7578196B259218410092309B /* Person.swift in Sources */,
+				757819702592218E0092309B /* DataManager.swift in Sources */,
+				7578197C25927C8A0092309B /* ContactInformation.swift in Sources */,
+				75781977259227D40092309B /* PersonRow.swift in Sources */,
+				757819872594C56E0092309B /* RowView.swift in Sources */,
+				75781966259217D20092309B /* ContactListSections.swift in Sources */,
+				75781961259217C00092309B /* ContactList.swift in Sources */,
 				75781934259205020092309B /* ContentView.swift in Sources */,
 				75781932259205020092309B /* SwiftHW4App.swift in Sources */,
 			);
